@@ -1,6 +1,5 @@
-const currentModule = "13";
-const currentModuleFull = "./modules/" + currentModule;
+const currentModule = "./modules/13";
 
 console.log("=== Start", currentModule, "===");
-require(currentModuleFull);
+require(currentModule);
 console.log("=== SinEnd", currentModule, "===");
